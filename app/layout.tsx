@@ -2,7 +2,7 @@ import { Footer, Navbar } from '@/components'
 import './globals.css'
 
 
-export const metadata: Metadata = {
+const Metadata = {
   title: 'Panensia',
   description: 'Inovasion Food by Panensia',
 }
