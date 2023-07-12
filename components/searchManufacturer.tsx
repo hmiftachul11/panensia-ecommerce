@@ -26,15 +26,6 @@ export default function SearchManufacturer({manufacturer, setManufacturer} : Sea
                 onChange={(e) => setQuery(e.target.value)}/>
             </div>
         </Combobox>
-
-        <Transition
-        as={Fragment}
-        leave='transition ease-in duration-100'
-        leaveFrom='opacity-100'
-        leaveTo='opacity-0'
-        afterLeave={() => setQuery('')}>
-            <Combobox.Options></Combobox.Options>
-        </Transition>
     </div>
   )
 }
