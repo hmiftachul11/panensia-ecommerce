@@ -25,12 +25,12 @@ const Hero = () => {
                 <CustomButton
                     title="Explore Food"
                     containerStyles="bg-brown text-white rounded-lg mt-10 pr-8"
-                    handleClick={handleScroll}
+                    
                 />
                 <CustomButton
                     title="Add to Cart"
                     containerStyles="border-solid border-2 rounded-lg mt-10"
-                    handleClick={handleScroll}
+                    
                 />
                 </div>
             </div>
